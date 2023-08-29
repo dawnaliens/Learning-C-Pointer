@@ -19,5 +19,7 @@ int main(void)
     // Modify the value of num via numPtr
     *numPtr = 100;
     printf("num - %d\n", num);
+    printf("The address of num is %p\n", (void*)&num);
+    printf("The address of numPtr is %p\n", (void*)&numPtr);
     return 0;
 }

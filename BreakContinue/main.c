@@ -12,4 +12,7 @@ int main(){
         printf("The current a is %d\n", a);
         
     }
+    for(int i = 0; i < 10; i++){
+        printf("i = %d\n", i);
+    }
 }

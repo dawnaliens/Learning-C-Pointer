@@ -9,4 +9,8 @@ int main(void){
 
     printf("Average hours per day: %.1f\n", avg);
     //printf("Average hours per day: %d\n", (int)avg);
+
+    char c = 250;
+    c += 8;
+    printf("c = %d\n", c);
 }
